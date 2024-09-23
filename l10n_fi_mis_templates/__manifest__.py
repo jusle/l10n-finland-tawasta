@@ -20,19 +20,13 @@
 {
     "name": "Profit & Loss / Balance sheet MIS templates subsections",
     "summary": "Add subsections for MIS templates",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.0.1",
     "category": "Localization",
     "website": "https://gitlab.com/tawasta/odoo/l10n-finland",
-    "author": "Tawasta",
+    "author": "Tawasta, Ab Cetmix Nordic Oy",
     "license": "AGPL-3",
-    "depends": [
-        "base",
-        "account",
-        "mis_builder",
-    ],
-    "data": [
-        # Add your XML files here
-    ],
-    "installable": True,
     "application": False,
+    "installable": True,
+    "depends": ["l10n_fi", "mis_template_financial_report"],
+    "data": ["data/mis_report_kpi_bs.xml", "data/mis_report_kpi_pl.xml"],
 }
