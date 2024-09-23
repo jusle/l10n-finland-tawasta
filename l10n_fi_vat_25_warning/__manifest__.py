@@ -27,7 +27,7 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["account", "sale"],
+#    "depends": ["account", "sale"],
     "data": [
         "views/account_move.xml",
         "views/sale_order.xml",

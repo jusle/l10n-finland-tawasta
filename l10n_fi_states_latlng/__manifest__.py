@@ -29,9 +29,9 @@
     "application": False,
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
-    "depends": [
-        "l10n_fi_province",
-    ],
+#    "depends": [
+#        "l10n_fi_province",
+#    ],
     "data": [
         "data/latlng.xml",
     ],

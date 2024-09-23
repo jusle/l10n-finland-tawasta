@@ -27,6 +27,6 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["l10n_fi_business_code"],
+#    "depends": ["l10n_fi_business_code"],
     "data": [],
 }

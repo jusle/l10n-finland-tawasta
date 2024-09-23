@@ -32,9 +32,9 @@
         "python": [],
         "bin": [],
     },
-    "depends": [
-        "base",
-    ],
+#    "depends": [
+#        "base",
+#    ],
     "data": [
         "security/ir.model.access.csv",
         "views/res_municipality_view.xml",

@@ -28,9 +28,9 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "base",
-    ],
+#    "depends": [
+#        "base",
+#    ],
     "data": [
         "data/finnish_province.xml",
     ],

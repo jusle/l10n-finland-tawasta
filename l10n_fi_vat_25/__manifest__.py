@@ -27,7 +27,7 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": ["l10n_fi"],
+#    "depends": ["l10n_fi"],
     "post_init_hook": "init_tax25_data",
     "data": [
         "data/account_tax_group_data.xml",

@@ -28,9 +28,9 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "l10n_fi_cities",
-    ],
+#    "depends": [
+#        "l10n_fi_cities",
+#    ],
     "data": [
         "data/latlng.xml",
     ],

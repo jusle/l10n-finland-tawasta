@@ -28,10 +28,10 @@
     "license": "AGPL-3",
     "application": False,
     "installable": True,
-    "depends": [
-        "base_address_city",
-        "l10n_fi_province",
-    ],
+#    "depends": [
+#        "base_address_city",
+#        "l10n_fi_province",
+#    ],
     "data": [
         "data/cities.xml",
     ],
